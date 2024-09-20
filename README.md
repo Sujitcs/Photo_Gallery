@@ -1,4 +1,6 @@
-site live on--https://photo-gallery-mo1m.onrender.com/
+site live on--https://photo-gallery-fawn-one.vercel.app/
+
+https://photo-gallery-mo1m.onrender.com/
 
 
 
