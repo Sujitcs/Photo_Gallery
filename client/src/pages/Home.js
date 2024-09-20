@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import '../styles/homepage.css';
 
-const url='http://localhost:5000' || 'https://photo-gallery-server-d6g0.onrender.com';
+const url='https://photo-gallery-server-d6g0.onrender.com';
 
 const Home = () => {
     const [images, setImages] = useState([]);
