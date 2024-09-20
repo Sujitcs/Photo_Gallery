@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebook, FaBars } from 'react-icons/fa';
 import axios from 'axios';
 import '../styles/header.css';
 
-const url='http://localhost:5000';
+const url='http://localhost:5000' || 'https://photo-gallery-server-d6g0.onrender.com';
 
 const Header = ({ isLoggedIn, logout }) => {
     const [categories, setCategories] = useState([]);

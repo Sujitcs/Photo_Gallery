@@ -6,7 +6,7 @@ import ImageCard from '../components/ImageCard';
 import { toast } from 'react-toastify';
 import '../styles/category.css';
 
-const url='http://localhost:5000';
+const url='http://localhost:5000' || 'https://photo-gallery-server-d6g0.onrender.com';
 
 const Category = () => {
     const { category } = useParams();

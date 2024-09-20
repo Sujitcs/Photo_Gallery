@@ -4,7 +4,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import '../styles/addphoto.css';
 
-const url='http://localhost:5000';
+const url='http://localhost:5000' || 'https://photo-gallery-server-d6g0.onrender.com';
 
 const AddPhoto = () => {
     const [name, setName] = useState('');
