@@ -1,6 +1,10 @@
 site live on--https://photo-gallery-mo1m.onrender.com/
 
-https://github.com/user-attachments/assets/8a781669-4955-4e8e-8b02-6a4f20e11c3c
+
+
+https://github.com/user-attachments/assets/b4368de8-0e3a-41a3-ae0d-155e6e222a5a
+
+
 ![1](https://github.com/user-attachments/assets/202b98e1-cb49-4cbb-b758-d90aafc9b939)
 ![2](https://github.com/user-attachments/assets/0d2b4149-fc18-466a-9b92-41b1faa513e0)
 ![3](https://github.com/user-attachments/assets/4cc41653-462c-4eb5-ac09-b447ca7f69d4)
