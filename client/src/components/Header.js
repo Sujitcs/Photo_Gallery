@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaInstagram, FaFacebook, FaBars } from 'react-icons/fa';
 import axios from 'axios';
 import '../styles/header.css';
-
-const url='https://photo-gallery-server-d6g0.onrender.com';
+import { url } from '../components/Base_url';
 
 const Header = ({ isLoggedIn, logout }) => {
     const [categories, setCategories] = useState([]);
@@ -77,12 +76,14 @@ const Header = ({ isLoggedIn, logout }) => {
                         <button onClick={() => { closeMenu(); logout(); }}>Logout</button>
                     </>
                 )}
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" onClick={closeMenu}>
-                    <FaInstagram className="social-icon" />
-                </a>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer" onClick={closeMenu}>
-                    <FaFacebook className="social-icon" />
-                </a>
+                <div className="social-icons">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer" onClick={closeMenu}>
+            <FaInstagram className="social-icon" />
+        </a>
+        <a href="https://facebook.com" target="_blank" rel="noreferrer" onClick={closeMenu}>
+            <FaFacebook className="social-icon" />
+        </a>
+    </div>
             </nav>
         </header>
     );
