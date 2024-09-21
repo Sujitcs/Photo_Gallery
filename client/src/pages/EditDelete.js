@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import '../styles/editdelete.css';
-
-const url='https://photo-gallery-server-d6g0.onrender.com';
+import { url } from '../components/Base_url';
 
 const EditDelete = () => {
     const [images, setImages] = useState([]);
