@@ -1,8 +1,7 @@
 // src/components/ImageCard.js
 import React from 'react';
 import '../styles/imagecard.css';
-
-const url='https://photo-gallery-server-d6g0.onrender.com';
+import { url } from '../components/Base_url';
 
 const ImageCard = ({ image, onClick }) => {
     return (
