@@ -5,8 +5,7 @@ import { useParams } from 'react-router-dom';
 import ImageCard from '../components/ImageCard';
 import { toast } from 'react-toastify';
 import '../styles/category.css';
-
-const url='https://photo-gallery-server-d6g0.onrender.com';
+import { url } from '../components/Base_url';
 
 const Category = () => {
     const { category } = useParams();
